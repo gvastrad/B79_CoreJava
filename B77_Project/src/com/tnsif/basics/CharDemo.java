@@ -5,6 +5,7 @@ public class CharDemo {
 	public static void main(String[] args) {
 		// assigning single character literal
 		char ch = 'a';
+		StringBuffer name=new StringBuffer();
 		System.out.println(ch);
 
 		// assigning number to char
