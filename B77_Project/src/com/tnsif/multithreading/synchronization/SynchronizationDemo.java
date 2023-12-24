@@ -9,6 +9,7 @@ public class SynchronizationDemo {
 
 		// Five account threads running parallel and sharing same resource
 		AccountThread t[] = new AccountThread[5];
+		//System.out.println(t.length);
 		for (int i = 0; i < 5; i++) {
 			t[i] = new AccountThread(a1, 1000 * (i + 1));
 			try {
